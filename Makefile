@@ -1565,7 +1565,7 @@ moc_qtquick2applicationviewer.o: moc_qtquick2applicationviewer.cpp
 
 install_itemfolder_01: first FORCE
 	@test -d $(INSTALL_ROOT)/opt/NSocket/qml || mkdir -p $(INSTALL_ROOT)/opt/NSocket/qml
-	-$(INSTALL_DIR) /home/nikolaos/QT_DEVELOP/NSocket/qml/NSocket $(INSTALL_ROOT)/opt/NSocket/qml/
+	-$(INSTALL_DIR) /home/nikolaos/QT_DEVELOP/QT_NSocket/qml/NSocket $(INSTALL_ROOT)/opt/NSocket/qml/
 
 uninstall_itemfolder_01: FORCE
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/opt/NSocket/qml/NSocket
